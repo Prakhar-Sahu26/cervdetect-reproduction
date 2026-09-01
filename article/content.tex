@@ -181,8 +181,8 @@ in Figure~2 of the original and the 32 features reported in its Section~3.
 \label{tab:rules}
 \renewcommand{\arraystretch}{1.15}
 \begin{tabularx}{\columnwidth}{@{}
-    >{\raggedright\arraybackslash}p{1.15cm}
-    >{\centering\arraybackslash}p{0.65cm}
+    >{\raggedright\arraybackslash}p{1.7cm}
+    >{\centering\arraybackslash}p{0.7cm}
     >{\raggedright\arraybackslash}X
     >{\raggedright\arraybackslash}X
 @{}}
@@ -351,9 +351,9 @@ parameter, rather than substituting a general-purpose conjugate gradient
 routine; the latter performs a line search at each step and is a different
 algorithm.
 
-\begin{figure*}[t]
+\begin{figure}[t]
 \centering
-\includegraphics[width=0.78\textwidth]{loss_trajectory.png}
+\includegraphics[width=\columnwidth]{loss_trajectory.png}
 \caption{Training and validation loss for the primary configuration (twelve
 features, sigmoid activation, cross-entropy loss, seed 42). Validation loss
 attains its minimum at epoch~9 and training terminates at epoch~15 after six
@@ -363,7 +363,7 @@ six epochs. Note the vertical scale: training loss falls only from 0.248 to
 0.230 across the full run, consistent with the attenuated gradients described
 in Section~\ref{sec:model}.}
 \label{fig:loss}
-\end{figure*}
+\end{figure}
 
 \paragraph{Stopping criterion.} The training duration is reported
 inconsistently: the text states one epoch, while the accompanying training
@@ -399,9 +399,9 @@ or tanh--softmax with cross-entropy) and initialisation ($N(0,1)$ or
 Nguyen--Widrow), giving twelve configurations, each repeated across ten seeds.
 Results for all twelve are reported in Section~\ref{sec:results}.
 
-\begin{figure*}[t]
+\begin{figure}[t]
 \centering
-\includegraphics[width=0.78\textwidth]{seed_sweep.png}
+\includegraphics[width=\columnwidth]{seed_sweep.png}
 \caption{Test accuracy across 30 random seeds, with points marked by the
 behaviour of the resulting classifier. Twenty-eight runs assign every
 observation to the negative class and attain accuracy equal to the
@@ -410,7 +410,7 @@ every observation to the positive class, giving a true-positive rate and a
 false-positive rate of 100\% at an accuracy equal to the positive prevalence of
 its split. One run falls into neither category.}
 \label{fig:seeds}
-\end{figure*}
+\end{figure}
 
 \subsection{Evaluation Protocol}\label{sec:eval}
 
