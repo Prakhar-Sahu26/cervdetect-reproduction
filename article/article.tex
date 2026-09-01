@@ -1,0 +1,21 @@
+\documentclass{rescience}
+
+% Packages required by content.tex and not loaded by rescience.cls
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{amssymb}
+
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}}
+
+\begin{document}
+\input{header.tex}
+\input{content.tex}
+
+\hypersetup{linkcolor=black,urlcolor=darkgray}
+\renewcommand\emph[1]{{\bfseries #1}}
+\setlength\bibitemsep{0pt}
+\printbibliography
+
+\end{document}

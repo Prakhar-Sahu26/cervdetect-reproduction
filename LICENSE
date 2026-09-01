@@ -1,0 +1,45 @@
+MIT License
+
+Copyright (c) 2026 Prakhar Sahu and Prakhar Sudele
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+The article manuscript (article/content.tex, article/metadata.yaml,
+article/bibliography.bib) is licensed separately under CC BY 4.0.
+See https://creativecommons.org/licenses/by/4.0/
+
+---
+
+Third-party components bundled from the ReScience/template repository carry
+their own licenses:
+
+  ReScience template source files (rescience.cls, article.tex,
+  yaml-to-latex.py, article.py, header.tex, Makefile):
+    GPL-3.0 — see article/COPYING (from the upstream template repository at
+    https://github.com/ReScience/template)
+
+  Bundled font files (article/roboto/, article/source-code-pro/,
+  article/source-sans-pro/, article/source-serif-pro/):
+    Each font family is distributed under its own upstream license. Roboto is
+    licensed under the Apache License 2.0; the Source family fonts (Source Code
+    Pro, Source Sans Pro, Source Serif Pro) are licensed under the SIL Open
+    Font License 1.1. See the LICENSE or OFL.txt files within each font
+    subdirectory for the authoritative terms.
